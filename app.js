@@ -14,3 +14,8 @@ textoRojo.innerText = rojo;
 textoVerde.innerText = verde;
 textoAzul.innerText = azul;
 
+function actulizarColor(rojo, verde, azul) {
+  const colorRGB = `rgb(${rojo}, ${verde}, ${azul})`;
+  document.body.style.backgroundColor = colorRGB;
+}
+
