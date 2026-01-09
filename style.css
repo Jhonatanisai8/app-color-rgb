@@ -27,3 +27,16 @@ body {
   border-radius: 50px;
   color: #000;
 }
+
+.color {
+  padding: 20px;
+  margin: 10px;
+  font-size: 2em;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
