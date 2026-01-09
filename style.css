@@ -1,0 +1,29 @@
+/* generals  */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+}
+
+/* contenedores */
+.contenedor-principal {
+  width: 50vw;
+  max-width: 600px;
+  min-height: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  border-radius: 50px;
+  color: #000;
+}
