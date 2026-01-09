@@ -19,3 +19,20 @@ function actulizarColor(rojo, verde, azul) {
   document.body.style.backgroundColor = colorRGB;
 }
 
+inputR.addEventListener("change", (e) => {
+  rojo = e.target.value;
+  textoRojo.innerText = rojo;
+  actulizarColor(rojo, verde, azul);
+});
+
+inputG.addEventListener("change", (e) => {
+  verde = e.target.value;
+  textoVerde.innerText = verde;
+  actulizarColor(rojo, verde, azul);
+});
+
+inputB.addEventListener("change", (e) => {
+  azul = e.target.value;
+  textoAzul.innerText = azul;
+  actulizarColor(rojo, verde, azul);
+});
